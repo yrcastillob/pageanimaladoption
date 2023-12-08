@@ -1,0 +1,89 @@
+:root{
+    --grisLetras: #313131;
+    --grisBackground: #F0F0F0;
+    --grisHeadNav: #cecdcd;
+    --primario: #FB7003;
+    --secundario: #07DEFA;
+    --cafeClaro: #BA6C30;
+    --azulPetroleo: #3998A5;
+    --cafeOscuro: #7A583E;
+    --pGrande: 22px;
+    --pMediano: 19px;
+    --pPequeno: 15px;
+}
+body{
+    background-image: url("../images/perrofeliz.jpg");
+    background-size: cover;
+    height: 100vh;
+}
+
+main{
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--secundario);
+    width: 80%;
+    border-radius: 1.8rem;
+    margin: 6rem auto;
+    padding: 3rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+    font-size: 2rem;
+
+}
+
+main h1{
+    color: var(--primario);
+    font-size: 5rem;
+}
+
+.processid{
+    font-size: 3rem;
+}
+
+.titleprocess{
+    font-weight: 800;
+    font-style: normal;
+}
+
+.titleprocessid{
+    text-decoration: none;
+    font-style: normal;
+    font-weight: bold;
+    background-color: var(--grisHeadNav);
+    border-radius: 1.8rem;
+    padding: 0 1rem;
+}
+
+.titleprocessid:hover{
+    background-color: var(--primario);
+    color: black;
+}
+
+main a{
+    background-color: var(--primario);
+    padding: 1rem;
+    border-radius: 1.8rem;
+    color: white;
+    font-weight: bold;
+    margin-top: 2rem;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+}
+
+main a:hover{
+    background-color: var(--azulPetroleo);
+    padding: 1rem;
+    color: black;
+}
+
+main a:active{
+    background-color: var(--primario);
+}
+
+.main-result_box_variables{
+    border: solid var(--grisLetras);
+    border-radius: 1.8rem;
+    padding: 2rem;
+    margin: 1rem;
+}
+

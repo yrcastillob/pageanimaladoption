@@ -1,0 +1,58 @@
+:root{
+    --grisLetras: #313131;
+    --grisBackground: #F0F0F0;
+    --grisHeadNav: #cecdcd;
+    --primario: #FB7003;
+    --secundario: #07DEFA;
+    --cafeClaro: #BA6C30;
+    --azulPetroleo: #3998A5;
+    --cafeOscuro: #7A583E;
+    --pGrande: 22px;
+    --pMediano: 19px;
+    --pPequeno: 15px;
+}
+
+.mainhistory{
+    width: 80%;
+    margin: 2rem auto;
+    display: flex;
+    display: row nowrap;
+    height: auto;
+}
+
+/*MAIN HISTORY IMAGE*/
+.mainhistory_image{
+    width: 25%;
+    padding: 2rem;
+    border: solid 0.1rem var(--primario);
+    border-radius: 50%;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+    margin-right: 2rem;
+}
+
+.mainhistory_image img{
+    width: 100%;
+}
+
+.mainhistory_text{
+    width: 70%;
+}
+
+.mainhistory_text h1, .mainhistory_text h2{
+    margin-bottom: 1rem;
+    color: var(--primario);
+}
+
+.mainhistory_text p{
+    font-size: 1.8rem;
+}
+
+@media(max-width:800px){
+    .mainhistory{
+        display: column wrap;
+        height: auto;
+    }
+}

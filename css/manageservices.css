@@ -1,0 +1,110 @@
+:root{
+    --grisLetras: #313131;
+    --grisBackground: #F0F0F0;
+    --grisHeadNav: #cecdcd;
+    --primario: #FB7003;
+    --secundario: #07DEFA;
+    --cafeClaro: #BA6C30;
+    --azulPetroleo: #3998A5;
+    --cafeOscuro: #7A583E;
+    --pGrande: 22px;
+    --pMediano: 19px;
+    --pPequeno: 15px;
+}
+body{
+    background-image: url("../images/perrofeliz.jpg");
+    background-size: cover;
+}
+
+.create-products{
+    background-color: var(--secundario);
+    width: 80%;
+    margin: 1rem auto;
+    border-radius: 1.8rem;
+    padding: 3rem;
+    
+}
+
+.formcontainer_form{
+    width: 100%;
+    display: flex;
+    flex-flow: column ;
+    margin: auto;
+}
+
+.form_containeritem {
+    display: flex;
+    flex-flow: column nowrap;
+    padding: 1rem;
+
+}
+
+.form_containeritem input{
+    padding: 1rem;
+    border: none;
+    border-radius: 1.8rem;
+}
+
+.form_containeritem select{
+    padding: 1rem;
+    border: none;
+    border-radius: 1.8rem;
+    color: var(--grisLetras);
+}
+
+main h1{
+    color: var(--primario);
+    font-size: 5rem;
+}
+
+.processid{
+    font-size: 3rem;
+}
+
+.form_containeritem_button {
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.form_containeritem_button button{
+    background-color: var(--primario);
+    padding: 1rem;
+    border-radius: 1.8rem;
+    color: white;
+    font-weight: bold;
+    margin: 2rem auto;
+    box-shadow: 1px 1px 10px rgba(0, 0, 0, 0.377);
+    border: none;
+
+}
+
+.form_containeritem_button button:hover{
+    background-color: var(--azulPetroleo);
+    padding: 1rem;
+    color: black;
+}
+
+.form_containeritem_button button:active{
+    background-color: var(--primario);
+}
+
+.form_containeritem_radio{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+    justify-content: center;
+}
+
+.form_containeritem_radio input{
+    margin: 1rem;
+}
+
+.minimenu{
+    background-color: var(--primario);
+    position: sticky;
+    padding: 0.5rem;
+    top: 0px;
+    color: white !important;
+}
